@@ -1,0 +1,54 @@
+Last-In First-Out or LIFO
+
+Stack Example:
+              top of the stack
+             /
+            8  ---
+            7     |
+            4     |- collection of size 5
+  an item - 9     |
+            2  ---
+             \
+              bottom of the stack
+
+
+Stack After Pop:
+            7
+            4
+            9
+            2
+Item Popped: 8
+Stack Size: 4
+
+
+Stack After Another Pop:
+            4
+            9
+            2
+Item popped: 7
+Stack Size: 3
+
+
+Stack After Pushing 7:
+            7
+            4
+            9
+            2
+Stack Size: 4
+
+
+Stack After Pushing 5:
+            5
+            7
+            4
+            9
+            2
+Stack Size: 5
+
+
+Other stack operations:
+
+- Check if a stack is empty, i.e. contains no items
+- Check if a stack has reached a maximum capacity
+- Peek at top stack item: return it without popping it
+- Create and destroy a stack
